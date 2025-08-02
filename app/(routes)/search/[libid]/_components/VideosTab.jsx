@@ -29,19 +29,13 @@ function VideosTab({ chat }) {
                                     alt={video.title}
                                     className="w-full h-full object-cover"
                                     onError={() => handleImageError(index)}
-                                    crossOrigin="anonymous"
+                                    referrerPolicy="no-referrer"
                                 />
                             ) : (
                                 <div className="w-full h-full bg-gray-100 flex items-center justify-center">
                                     <Play className="h-8 w-8 text-gray-400" />
                                 </div>
                             )}
-
-                            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-200 flex items-center justify-center">
-                                <div className="bg-white bg-opacity-90 rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                                    <Play className="h-4 w-4 text-gray-800 fill-current" />
-                                </div>
-                            </div>
                         </div>
 
                         <div className="p-3 space-y-2">
