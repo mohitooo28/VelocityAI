@@ -1,7 +1,7 @@
 # 🚀 Velocity AI - Intelligent Search & Discovery Platform
 
 <div align="center">
-  <img src="public/title_logo.svg" alt="Velocity AI Logo" width="200"> <br/>  <br/>  
+  <img src="public/title_logo.svg" alt="Velocity AI Logo" width="320"> <br/>  <br/>  
   
   **A Perplexity clone - AI-powered search and discovery platform with real-time insights and comprehensive analysis**
   
@@ -144,6 +144,10 @@ npx inngest-cli@latest dev
 
 1. **Access Your Library** - View all your previous searches
 2. **Re-explore** - Revisit previous searches and analyses
+
+## 💻 VelocityAI Usage Walkthrough
+
+https://github.com/user-attachments/assets/027e8cbd-4a13-4b59-abc9-15f093b30197
 
 ## 🛠️ Tech Stack
 
