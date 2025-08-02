@@ -3,7 +3,7 @@ import "./globals.css";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import AppSideBar from "./_components/AppSideBar";
 import { ClerkProvider } from "@clerk/nextjs";
-import Provider from "./provider";
+import Provider from "./Provider";
 import MobileWarning from "@/components/MobileWarning";
 
 const geistSans = Geist({
